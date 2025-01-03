@@ -1,0 +1,24 @@
+# Bytecode dosyaları ve derlenmiş Python dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam dizinleri
+.venv/
+.env/
+
+# IDE yapılandırma dosyaları
+.vscode/
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*.tmp
+*.swp
+*.bak
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
