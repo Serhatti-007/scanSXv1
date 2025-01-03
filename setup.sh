@@ -22,4 +22,4 @@ echo "Installing Python dependencies..."
 pip3 install -r requirements.txt --break-system-packages
 
 # Setup complete
-echo "Setup complete! You can now run the project using 'python3 main.py'."
+echo "Setup complete! You can now run the project using 'python3 scanSXv1.py'."
