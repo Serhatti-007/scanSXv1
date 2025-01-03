@@ -3,10 +3,6 @@
 # Setup script for scanSXv1 project
 echo "Starting setup for scanSXv1..."
 
-# Update package list and upgrade system packages
-echo "Updating system packages..."
-sudo apt update && sudo apt upgrade -y
-
 # Install Python 3 and pip if not installed
 echo "Checking for Python 3 and pip..."
 if ! command -v python3 &> /dev/null
@@ -26,4 +22,4 @@ echo "Installing Python dependencies..."
 pip3 install -r requirements.txt
 
 # Setup complete
-echo "Setup complete! You can now run the project using 'python3 scanSXv1.py'."
+echo "Setup complete! You can now run the project using 'python3 main.py'."
